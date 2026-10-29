@@ -1,0 +1,15 @@
+{
+  "name": "openclaw-genpark-envoy",
+  "version": "1.0.0",
+  "description": "OpenClaw GenPark inter-agent mutual handshake and secure HMAC authenticated envelope router with replay attack prevention.",
+  "tools": [
+    {
+      "name": "package_envelope",
+      "description": "Package an agent payload into an HMAC authenticated envelope with nonce."
+    },
+    {
+      "name": "verify_and_unpack",
+      "description": "Cryptographically verify and unpack incoming inter-agent envelope."
+    }
+  ]
+}
