@@ -1,1 +1,3 @@
-# Zero external dependencies required -- Python 3.9+ standard library only
+# The core algorithms use the Python standard library.
+# Running the MCP server requires Python 3.10+ and the official MCP SDK.
+mcp>=1.0.0,<2
